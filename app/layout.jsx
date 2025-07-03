@@ -10,7 +10,18 @@ export const metadata = {
     description: 'Portfolio site of Jan Royce Maceren, specializing in Laravel, WordPress, Shopify, and full-stack web development.',
     openGraph: {
         title: 'Jan Royce Maceren - Full-Stack Web Developer',
-        description: 'Portfolio site of Jan Royce Maceren, specializing in Laravel, WordPress, Shopify, and full-stack web development.'
+        description: 'Portfolio site of Jan Royce Maceren, specializing in Laravel, WordPress, Shopify, and full-stack web development.',
+        url: 'https://janroyce.netlify.app/',
+        siteName: 'Jan Royce Portfolio',
+        images: [
+            {
+                url: 'https://janroyce.netlify.app/images/portfolio-image.png',
+                width: 1200,
+                height: 627,
+                alt: 'Jan Royce Portfolio',
+            },
+        ],
+        type: 'website',
     }
 };
 
