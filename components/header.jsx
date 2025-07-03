@@ -15,22 +15,23 @@ export function Header() {
                     <span className="text-sm text-neutral-300">Full-Stack Web Developer</span>
                 </div>
             </div>
-            <Link
-                href="https://www.linkedin.com/in/jan-royce-maceren-151692170/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="lg:inline-flex ml-auto"
-            >
-                <Image src={linkedInLogo} alt="LinkedIn logo" className="w-7" />
-            </Link>
-            <Link
-                href="https://github.com/Jan-Royce"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="lg:inline-flex"
-            >
-                <Image src={githubLogo} alt="GitHub logo" className="w-7" />
-            </Link>
+            <div className="lg:inline-flex ml-auto w-full flex md:w-auto">
+                <Link
+                    href="https://www.linkedin.com/in/jan-royce-maceren-151692170/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <Image src={linkedInLogo} alt="LinkedIn logo" className="w-7" />
+                </Link>
+                <Link
+                    href="https://github.com/Jan-Royce"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="lg:inline-flex ml-2"
+                >
+                    <Image src={githubLogo} alt="GitHub logo" className="w-7" />
+                </Link>
+            </div>
         </nav>
     );
 }
