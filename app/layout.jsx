@@ -6,6 +6,11 @@ export const metadata = {
     title: {
         template: '%s | Netlify',
         default: 'Jan Royce Maceren - Full-Stack Web Developer'
+    },
+    description: 'Portfolio site of Jan Royce Maceren, specializing in Laravel, WordPress, Shopify, and full-stack web development.',
+    openGraph: {
+        title: 'Jan Royce Maceren - Full-Stack Web Developer',
+        description: 'Portfolio site of Jan Royce Maceren, specializing in Laravel, WordPress, Shopify, and full-stack web development.'
     }
 };
 
