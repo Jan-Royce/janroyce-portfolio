@@ -244,7 +244,11 @@ export default function Page() {
             <hr className="border-neutral-400" />
             
             <section>
-                <Card>
+                
+                <div className="bg-white rounded-sm text-neutral-600">
+                    
+                    <div className="flex flex-col gap-4 px-6 py-8">
+                    
                     <h2 className="mb-6">Get in touch!</h2>
 
                     <form name="contact" method="POST" className="flex flex-wrap" data-netlify="true" netlify-honeypot="bot-field">
@@ -272,7 +276,10 @@ export default function Page() {
                             <button type="submit" className="bg-blue-600 text-white px-4 py-1 cursor-pointer">Send</button>
                         </div>
                     </form>
-                </Card>
+                    
+                    </div>
+                    
+                </div>
 
             </section>
             
