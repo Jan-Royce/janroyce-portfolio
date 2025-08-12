@@ -245,7 +245,31 @@ export default function Page() {
             
             <hr className="border-neutral-400" />
             
-            
+            <section>
+                <Card>
+                    <h2 className="mb-6">Get in touch!</h2>
+
+                    {/* data-netlify="true" */}
+                    <form name="contact" className="flex flex-wrap">
+                        <div className="w-full lg:w-1/2 lg:pr-4 mb-4">
+                            <label htmlFor="name" className="text-sm">Name</label>
+                            <input type="text" className="block border-1 border-gray-400 rounded-sm w-full px-2 py-1" name="name" id="name" />
+                        </div>
+                        <div className="w-full lg:w-1/2 mb-4">
+                            <label htmlFor="email" className="text-sm">Email</label>
+                            <input type="email" className="block border-1 border-gray-400 rounded-sm w-full px-2 py-1" name="email" id="email" />
+                        </div>
+                        <div className="w-full mb-4">
+                            <label htmlFor="message" className="text-sm">Message</label>
+                            <textarea name="message" className="block border-1 border-gray-400 rounded-sm w-full px-2 py-1" rows="4" id="message"></textarea>
+                        </div>
+                        <div className="mx-auto">
+                            <button type="submit" className="bg-blue-600 text-white px-4 py-1 cursor-pointer">Send</button>
+                        </div>
+                    </form>
+                </Card>
+
+            </section>
             
         </div>
     );
