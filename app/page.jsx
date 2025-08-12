@@ -262,10 +262,8 @@ export default function Page() {
                         
                         <div className="w-full lg:w-1/2 lg:pr-4 mb-4">
                             <label className="text-sm">Name</label>
-                            <input type="text" className="block border border-gray-400 rounded-sm w-full px-2 py-1" name="name" />
+                            <input type="text" className="block border border-gray-400 rounded-sm w-full px-2 py-1" name="name" autoComplete="off" />
                         </div>
-                        
-                        
                         
                         <div className="mx-auto">
                             <button type="submit" className="bg-blue-600 text-white px-4 py-1 cursor-pointer">Send</button>
