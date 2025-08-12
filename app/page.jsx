@@ -249,7 +249,7 @@ export default function Page() {
                 <Card>
                     <h2 className="mb-6">Get in touch!</h2>
 
-                    <form name="contact" className="flex flex-wrap" data-netlify="true" netlify-honeypot="bot-field">
+                    <form name="contact" method="POST" className="flex flex-wrap" data-netlify="true" netlify-honeypot="bot-field">
                         <input type="hidden" name="form-name" value="contact" />
                         
                         <p hidden>
