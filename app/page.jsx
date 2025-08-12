@@ -1,6 +1,4 @@
 import { Card } from 'components/card';
-import { Markdown } from 'components/markdown';
-import { getNetlifyContext } from 'utils';
 
 const profileSummary = `I'm a full stack web developer with 6+ years of experience delivering end-to-end web solutions using the Laravel/LAMP stack. I have a strong background in e-commerce, custom CMS integrations, and feature development across both front-end and back-end. I'm very adept at working independently to build scalable systems, enhance UI/UX, and integrate third-party APIs across platforms including WordPress and Shopify.`;
 const projectsList = [
@@ -260,15 +258,15 @@ export default function Page() {
                         
                         <div className="w-full lg:w-1/2 lg:pr-4 mb-4">
                             <label htmlFor="name" className="text-sm">Name</label>
-                            <input type="text" className="block border-1 border-gray-400 rounded-sm w-full px-2 py-1" name="name" id="name" />
+                            <input type="text" className="block border border-gray-400 rounded-sm w-full px-2 py-1" name="name" id="name" />
                         </div>
                         <div className="w-full lg:w-1/2 mb-4">
                             <label htmlFor="email" className="text-sm">Email</label>
-                            <input type="email" className="block border-1 border-gray-400 rounded-sm w-full px-2 py-1" name="email" id="email" />
+                            <input type="email" className="block border border-gray-400 rounded-sm w-full px-2 py-1" name="email" id="email" />
                         </div>
                         <div className="w-full mb-4">
                             <label htmlFor="message" className="text-sm">Message</label>
-                            <textarea name="message" className="block border-1 border-gray-400 rounded-sm w-full px-2 py-1" rows="4" id="message"></textarea>
+                            <textarea name="message" className="block border border-gray-400 rounded-sm w-full px-2 py-1" rows="4" id="message"></textarea>
                         </div>
                         <div className="mx-auto">
                             <button type="submit" className="bg-blue-600 text-white px-4 py-1 cursor-pointer">Send</button>
