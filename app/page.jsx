@@ -249,8 +249,15 @@ export default function Page() {
                 <Card>
                     <h2 className="mb-6">Get in touch!</h2>
 
-                    {/* data-netlify="true" */}
-                    <form name="contact" className="flex flex-wrap">
+                    <form name="contact" className="flex flex-wrap" data-netlify="true" netlify-honeypot="bot-field">
+                        <input type="hidden" name="form-name" value="contact" />
+                        
+                        <p hidden>
+                            <label>
+                                Don’t fill this out: <input name="bot-field" />
+                            </label>
+                        </p>
+                        
                         <div className="w-full lg:w-1/2 lg:pr-4 mb-4">
                             <label htmlFor="name" className="text-sm">Name</label>
                             <input type="text" className="block border-1 border-gray-400 rounded-sm w-full px-2 py-1" name="name" id="name" />
