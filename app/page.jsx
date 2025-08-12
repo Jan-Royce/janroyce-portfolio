@@ -265,6 +265,11 @@ export default function Page() {
                             <input type="text" className="block border border-gray-400 rounded-sm w-full px-2 py-1" name="name" autoComplete="off" />
                         </div>
                         
+                        <div className="w-full lg:w-1/2 mb-4">
+                            <label className="text-sm">Email</label>
+                            <input type="email" className="block border border-gray-400 rounded-sm w-full px-2 py-1" name="email" autoComplete="off" />
+                        </div>
+                        
                         <div className="mx-auto">
                             <button type="submit" className="bg-blue-600 text-white px-4 py-1 cursor-pointer">Send</button>
                         </div>
