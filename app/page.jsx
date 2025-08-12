@@ -261,16 +261,16 @@ export default function Page() {
                         </p>
                         
                         <div className="w-full lg:w-1/2 lg:pr-4 mb-4">
-                            <label htmlFor="name" className="text-sm">Name</label>
-                            <input type="text" className="block border border-gray-400 rounded-sm w-full px-2 py-1" name="name" id="name" />
+                            <label className="text-sm">Name</label>
+                            <input type="text" className="block border border-gray-400 rounded-sm w-full px-2 py-1" name="name" />
                         </div>
                         <div className="w-full lg:w-1/2 mb-4">
-                            <label htmlFor="email" className="text-sm">Email</label>
-                            <input type="email" className="block border border-gray-400 rounded-sm w-full px-2 py-1" name="email" id="email" />
+                            <label className="text-sm">Email</label>
+                            <input type="email" className="block border border-gray-400 rounded-sm w-full px-2 py-1" name="email" />
                         </div>
                         <div className="w-full mb-4">
-                            <label htmlFor="message" className="text-sm">Message</label>
-                            <textarea name="message" className="block border border-gray-400 rounded-sm w-full px-2 py-1" rows="4" id="message"></textarea>
+                            <label className="text-sm">Message</label>
+                            <textarea name="message" className="block border border-gray-400 rounded-sm w-full px-2 py-1" rows="4" ></textarea>
                         </div>
                         <div className="mx-auto">
                             <button type="submit" className="bg-blue-600 text-white px-4 py-1 cursor-pointer">Send</button>
