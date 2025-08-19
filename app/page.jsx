@@ -241,7 +241,8 @@ export default function Page() {
                 
             </section>
             
-            <hr className="border-neutral-400" />
+            {/* TODO Error on prod */}
+            {/* <hr className="border-neutral-400" />
             
             <section>
                 
@@ -284,7 +285,7 @@ export default function Page() {
                     
                 </div>
 
-            </section>
+            </section> */}
             
         </div>
     );
