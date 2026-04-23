@@ -5,8 +5,9 @@
 @theme {
     --background-image-noise: linear-gradient(
             to bottom,
-            color-mix(in oklab, var(--color-neutral-950) 0%, transparent),
-            color-mix(in oklab, var(--color-neutral-950) 100%, transparent)
+            color-mix(in oklab, var(--color-sky-950) 0%, transparent),
+            color-mix(in oklab, var(--color-fuchsia-950) 50%, transparent),
+            color-mix(in oklab, var(--color-rose-950) 100%, transparent)
         ),
         url('/images/noise.png');
     --color-primary: #2bdcd2;
@@ -31,6 +32,12 @@
 
     a:not(.btn) {
         @apply underline transition hover:opacity-80;
+        transition-duration: 0.25s;
+        transition-timing-function: ease-in-out
+    }
+    
+    a:not(.btn):not(.text-link):hover {
+        filter: drop-shadow(4px 4px #ff00bf) blur(0.5px) drop-shadow(-4px -4px #00ffff);
     }
 
     :not(pre) > code {
@@ -153,5 +160,19 @@
             left: 0;
             pointer-events: none;
         }
+    }
+    
+    .card {
+        background-color: var(--color-slate-900);
+    }
+    
+    .holup-text {
+        font-size: 1.5rem;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    
+    .him-text {
+        font-weight: 600;
     }
 }

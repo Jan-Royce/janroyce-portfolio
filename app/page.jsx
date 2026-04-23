@@ -1,4 +1,6 @@
 import { Card } from 'components/card';
+import Image from 'next/image';
+import introImage from 'public/images/hol_up.png';
 
 const profileSummary = `I'm a full stack web developer with 6+ years of experience delivering end-to-end web solutions using the Laravel/LAMP stack. I have a strong background in e-commerce, custom CMS integrations, and feature development across both front-end and back-end. I'm very adept at working independently to build scalable systems, enhance UI/UX, and integrate third-party APIs across platforms including WordPress and Shopify.`;
 const projectsList = [
@@ -155,7 +157,13 @@ export default function Page() {
         <div className="flex flex-col gap-12 sm:gap-16">
             
             <section>
-                <p>{profileSummary}</p>
+                <div className="flex flex-wrap">
+                    <p className="w-full">{profileSummary}</p>
+                    <div className="w-full mb-4 md:mb-0 relative">
+                        <Image src={introImage} alt="Hol' up, let him cook..." className="w-3/4 md:w-1/4 mx-auto" />
+                        <span className="holup-text absolute whitespace-nowrap">Hol up, let <span className="him-text">him</span> cook</span>
+                    </div>
+                </div>
             </section>
             
             <hr className="border-neutral-400" />

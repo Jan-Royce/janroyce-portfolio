@@ -7,7 +7,7 @@ export function Footer() {
                 Get in touch through
                 <Link
                     href="https://www.linkedin.com/in/jan-royce-maceren-151692170/"
-                    className="decoration-dashed text-primary underline-offset-8 pl-1"
+                    className="decoration-dashed text-link text-primary underline-offset-8 pl-1"
                 >
                     LinkedIn
                 </Link>!
