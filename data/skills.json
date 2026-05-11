@@ -1,0 +1,40 @@
+[
+    {
+        "title": "Full Stack Development",
+        "title_emoji": "🧩",
+        "list": [
+            "PHP(Laravel, Vanilla PHP), Node.js",
+            "JavaScript(ES6 +), jQuery",
+            "REST APIs, Laravel Livewire",
+            "SQL, MySQL, MongoDB"
+        ]
+    },
+    {
+        "title": "Front-End & UI",
+        "title_emoji": "🎨",
+        "list": [
+            "HTML5, CSS3, SASS",
+            "Tailwind CSS, Bootstrap",
+            "Responsive design, Cross - browser compatibility",
+            "Basic UX / UI awareness"
+        ]
+    },
+    {
+        "title": "CMS & E-Commerce",
+        "title_emoji": "🛠️",
+        "list": [
+            "WordPress(Elementor, Custom themes)",
+            "Shopify(Liquid templating, Theme customization)"
+        ]
+    },
+    {
+        "title": "Tools & Workflows",
+        "title_emoji": "🧰",
+        "list": [
+            "Git & GitHub",
+            "Stripe API, Google Maps API, FFmpeg",
+            "Adobe Photoshop",
+            "Deployment: cPanel, shared hosting environments"
+        ]
+    }
+]

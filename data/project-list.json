@@ -1,0 +1,133 @@
+[
+    {
+        "title": "E-Commerce Platform for Pet Accessories",
+        "title_emoji": "🐾",
+        "tech": "Laravel, Livewire, Tailwind CSS, Stripe API, MySQL",
+        "role": "Full-stack developer",
+        "activities": [
+            "Built both the customer-facing store and a full-featured admin dashboard",
+            "Integrated Stripe for secure payments and real-time order updates using Laravel Livewire",
+            "Implemented product / inventory management, order tracking, invoicing, and reporting",
+            "Designed a mobile-friendly UI for seamless browsing and checkout"
+        ],
+        "url": ""
+    },
+    {
+        "title": "Patient Booking System (Internal Tool)",
+        "title_emoji": "💊",
+        "tech": "PHP, HTML5, CSS3",
+        "role": "Backend & UI maintenance",
+        "activities": [
+            "Debugged and optimized an in-house legacy appointment booking system",
+            "Improved backend performance and user experience on the admin side",
+            "Streamlined front-end form logic and layout for better responsiveness"
+        ],
+        "url": ""
+    },
+    {
+        "title": "Musician Portfolio and Upload Platform",
+        "title_emoji": "🎶",
+        "tech": "Laravel, HTML5, SASS, JavaScript, jQuery",
+        "role": "Full-stack developer",
+        "activities": [
+            "Rebuilt an online platform for musicians to create profiles, upload music, and showcase work",
+            "Designed a responsive, user-friendly UI for both artists and listeners",
+            "Improved site performance and reduced page load time through optimized frontend assets"
+        ],
+        "url": "https://www.neworleansmusicians.com/"
+    },
+    {
+        "title": "Online Learning Platform (WordPress)",
+        "title_emoji": "📚",
+        "tech": "WordPress, Elementor, Custom PHP",
+        "role": "WordPress developer",
+        "activities": [
+            "Built an interactive site for online math and algebra lessons using Elementor",
+            "Customized templates and back-end logic for dynamic lesson content",
+            "Ensured mobile responsiveness and optimized loading times for remote learners"
+        ],
+        "url": "https://elevatedmath.com"
+    },
+    {
+        "title": "Legal Document Generator (WordPress)",
+        "title_emoji": "💼",
+        "tech": "WordPress, Custom PHP",
+        "role": "Full-stack WordPress developer",
+        "activities": [
+            "Developed dynamic form flows for generating legal, tax, and business documents",
+            "Created custom logic for conditionally displaying form fields and automating output",
+            "Enhanced site usability and maintained plugin compatibility across updates"
+        ],
+        "url": "https://www.formpros.com/"
+    },
+    {
+        "title": "Coupon & Promo Code Aggregator Site",
+        "title_emoji": "💡",
+        "tech": "Bootstrap, HTML5, CSS3, WordPress (Clipper theme)",
+        "role": "Front-end developer",
+        "activities": [
+            "Implemented SEO-friendly code structure to improve visibility and traffic",
+            "Customized a coupon theme to fit client's brand and usability requirements"
+        ],
+        "url": ""
+    },
+    {
+        "title": "Travel Booking Admin Dashboard",
+        "title_emoji": "🗺️",
+        "tech": "Laravel, Google Maps API, Bootstrap",
+        "role": "Full-stack developer",
+        "activities": [
+            "Created an admin interface for managing travel bookings and destinations",
+            "Integrated Google Maps for real-time location selection and display",
+            "Improved system performance and admin workflows for travel agents"
+        ],
+        "url": ""
+    },
+    {
+        "title": "YouTube-Style Video Upload Platform",
+        "title_emoji": "📽️",
+        "tech": "PHP, FFmpeg, Bootstrap, MySQL",
+        "role": "Backend-focused developer",
+        "activities": [
+            "Helped build a video sharing platform with features like multi-resolution streaming and dynamic thumbnails",
+            "Integrated FFmpeg to handle video processing, encoding, and format conversion",
+            "Implemented user upload limits, quality presets, and dashboard tools"
+        ],
+        "url": ""
+    },
+    {
+        "title": "Cryptocurrency Data & Charting Website",
+        "title_emoji": "📈",
+        "tech": "PHP, JavaScript, Charting API",
+        "role": "Full-stack developer",
+        "activities": [
+            "Built real-time cryptocurrency price charts using third-party APIs",
+            "Implemented a dynamic calculator for conversions and portfolio tracking",
+            "Designed a responsive UI for mobile and desktop investors"
+        ],
+        "url": ""
+    },
+    {
+        "title": "Landing Page for Hosting Company",
+        "title_emoji": "🧮",
+        "tech": "Laravel, HTML5, CSS3, SASS, JavaScript",
+        "role": "Front-end developer",
+        "activities": [
+            "Created a modern, responsive marketing site for a web hosting provider",
+            "Used modular SCSS for maintainable styling and design consistency",
+            "Ensured SEO-readiness, fast load times, and mobile optimization"
+        ],
+        "url": "https://sunbear.io/"
+    },
+    {
+        "title": "Xero Invoices Dashboard",
+        "title_emoji": "📈",
+        "tech": "HTML5, CSS3, JavaScript, PHP, WordPress, Xero API, Claude AI",
+        "role": "Full-stack developer",
+        "activities": [
+            "Created a dashboard for displaying company payables with amount due and average days outstanding for each company",
+            "Integrated both Xero API and Xero webhooks to make sure that the dashboard is in-sync with Xero and to have an almost real-time update"
+        ],
+        "url": ""
+    }
+]
