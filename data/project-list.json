@@ -129,5 +129,17 @@
             "Integrated both Xero API and Xero webhooks to make sure that the dashboard is in-sync with Xero and to have an almost real-time update"
         ],
         "url": ""
+    },
+    {
+        "title": "Community Management Platform",
+        "title_emoji": "👥",
+        "tech": "PHP, Laravel, Blade, Alpine.js, Tailwind CSS, MySQL, WebSockets, OAuth, Claude AI",
+        "role": "Full-stack developer",
+        "activities": [
+            "Built role and permission management features for organizing members and staff within a community platform",
+            "Implemented real-time messaging between staff and applicants, including file attachments and message editing",
+            "Led an app-wide responsiveness pass, converting desktop table layouts into mobile-friendly card views"
+        ],
+        "url": ""
     }
 ]
