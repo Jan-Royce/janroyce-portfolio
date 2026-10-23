@@ -4,7 +4,7 @@ import introImage from 'public/images/hol_up.png';
 import projectsList from 'data/project-list.json';
 import skills from 'data/skills.json';
 
-const profileSummary = `I'm a full stack web developer with 6+ years of experience delivering end-to-end web solutions using the Laravel/LAMP stack. I have a strong background in e-commerce, custom CMS integrations, and feature development across both front-end and back-end. I'm very adept at working independently to build scalable systems, enhance UI/UX, and integrate third-party APIs across platforms including WordPress and Shopify.`; 
+const profileSummary = `I'm a full stack web developer with 8+ years of experience delivering end-to-end web solutions using the Laravel/LAMP stack. I have a strong background in e-commerce, custom CMS integrations, and feature development across both front-end and back-end. I'm very adept at working independently to build scalable systems, enhance UI/UX, and integrate third-party APIs across platforms including WordPress and Shopify.`; 
 
 export default function Page() {
     return (
